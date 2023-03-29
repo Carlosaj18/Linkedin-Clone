@@ -4,13 +4,13 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { useDispatch } from "react-redux";
 import { login } from "../../features/userSlice";
-import { auth } from "../../firebase";
+import { auth, provider } from "../../firebase";
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   updateProfile,
 } from "firebase/auth";
-
+import { signInWithPopup } from "firebase/auth";
 import "./Login.css";
 
 const Login = () => {
@@ -20,11 +20,10 @@ const Login = () => {
   const [profilePic, setProfilePic] = useState("");
   const dispatch = useDispatch();
 
-  const loginHandler = async (e) => {
+  const loginEmailHandler = async (e) => {
     e.preventDefault();
     try {
       const userAuth = await signInWithEmailAndPassword(auth, email, password);
-
       dispatch(
         login({
           email: userAuth.user.email,
@@ -38,7 +37,24 @@ const Login = () => {
     }
   };
 
-  const registerHandler = async () => {
+  const loginGoogleHandler = async () => {
+    try {
+      const result = await signInWithPopup(auth, provider);
+      const userAuth = result.user;
+      dispatch(
+        login({
+          email: userAuth.email,
+          uid: userAuth.uid,
+          displayName: userAuth.displayName,
+          photoUrl: userAuth.photoURL,
+        })
+      );
+    } catch (error) {
+      console.error("Error signing in with Google", error);
+    }
+  };
+
+  const registerEmailHandler = async () => {
     if (!name) {
       return alert("Please enter a full name!");
     }
@@ -105,12 +121,12 @@ const Login = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
 
-        <button type="submit" onClick={loginHandler}>
+        <button type="submit" onClick={loginEmailHandler}>
           Sign In
         </button>
         <div class="flex-icon">
           <div class="circulo">
-            <GoogleIcon />
+            <GoogleIcon onClick={loginGoogleHandler} />
           </div>
           <div class="circulo">
             <InstagramIcon />
@@ -122,7 +138,7 @@ const Login = () => {
       </form>
       <p>
         Not a member?{" "}
-        <span className="login__register" onClick={registerHandler}>
+        <span className="login__register" onClick={registerEmailHandler}>
           Register Now
         </span>
       </p>
