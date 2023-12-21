@@ -61,6 +61,16 @@
 * Firebase: A comprehensive platform providing various tools and services for building web and mobile applications.
 * Redux: A predictable state container for JavaScript apps, aiding in managing application state.
 
+
+<p align="center">
+    <br><br>
+  <a target="_blank" rel="noopener noreferrer"> <img src="https://github.com/devicons/devicon/blob/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg" alt="Firebase" height="40" style="vertical-align:top; margin:10px"></a>
+  <a target="_blank" rel="noopener noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" alt="React" height="40" style="vertical-align:top; margin:10px"</a>
+   <a> <img src="https://github.com/devicons/devicon/blob/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/materialui/materialui-original.svg" alt="MaterialUi" height="40" style="vertical-align:top; margin:10px"></a>
+  <a> <img src="https://github.com/devicons/devicon/blob/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/redux/redux-original.svg" alt="Redux" height="40" style="vertical-align:top; margin:10px"></a>
+   <a> <img src="https://github.com/devicons/devicon/blob/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-original-wordmark.svg" alt="MaterialUi" height="40" style="vertical-align:top; margin:10px"></a>
+</p>
+
 ## Features:
 *     Real-time Database & Seamless Updates: Firebase's real-time database ensures immediate updates across the app.
 *     User Authentication & Authorization: Manage logins, registrations, and authorization through Firebase Authentication.
