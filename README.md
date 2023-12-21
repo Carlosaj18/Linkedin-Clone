@@ -1,46 +1,140 @@
-# Getting Started with Create React App and Redux
+<a name="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a>
+   <img src="https://user-images.githubusercontent.com/62365628/214876004-be858914-bb6b-4b6e-8c40-b49112ff0d30.png" alt="Logo" width="80" height="80">
+  </a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <h3 align="center">Linkedin Clone</h3>
 
-### `npm test`
+  <p align="center">
+  Crafted to mirror LinkedIn's essence, this project replicates the professional networking platform's interface. 
+    <br />
+    <a href="https://github.com/Carlosaj18/Love-Language-App"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+   <a href="https://github.com/Carlosaj18/Linkedin-Clone/#demo">View Demo</a>
+    ·
+    <a href="https://github.com/Carlosaj18/Love-Language-App/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Carlosaj18/Love-Language-App/issues">Request Feature</a>
+  </p>
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br />
 
-### `npm run build`
+<!-- ABOUT THE PROJECT -->
+## :star2: About the Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div align="justify">Crafted to mirror LinkedIn's essence, this project meticulously replicates the professional networking platform's interface, ensuring a seamless user experience akin to LinkedIn. Its design and functionality closely resemble the original platform, fostering an environment for networking, professional interactions, and career development. The project focuses on emulating LinkedIn's core features, including profile creation, connections, job postings, and messaging functionalities, delivering a familiar yet unique experience for users seeking a professional networking environment.
+  <br><br>
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Technological Stack:
+* React.js: A JavaScript library for building user interfaces efficiently.
+* Firebase: A comprehensive platform providing various tools and services for building web and mobile applications.
+* Redux: A predictable state container for JavaScript apps, aiding in managing application state.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features:
+*     Real-time Database & Seamless Updates: Firebase's real-time database ensures immediate updates across the app.
+*     User Authentication & Authorization: Manage logins, registrations, and authorization through Firebase Authentication.
+*     Efficient State Management: Redux ensures a predictable state and enhances performance.
+*     Responsive UI: React.js enables a highly responsive and scalable user interface.
+*     Serverless Functions & Easy Deployment: Utilize Firebase Functions and Hosting for serverless computing and easy deployment.
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. Download Node.js and `npm` (follow instructions [here](https://nodejs.org/en/))
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Git clone and cd into the repo folder:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+https://github.com/Carlosaj18/Linkedin-Clone 
+```
 
-## Learn More
+### 3. Install all dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 4. Run the client
+
+```bash
+npm start
+#for deployed version
+
+npm run dev
+#for deployed version
+```
+
+### 5. Access the project in your browser at [`http://localhost:3000`](http://localhost:3000)
+
+<hr />
+
+ ## Demo & Showcasing:
+
+ ### :camera: Screenshots
+ ![104849154-4dc83700-58f9-11eb-835a-b82602111f38](https://github.com/Carlosaj18/Linkedin-Clone/assets/62365628/946176ca-689b-4fad-a25f-52976d4d2170)
+
+## :handshake: Contact
+<a href=#lets-connect>![Let's Connect!](https://res.cloudinary.com/dn1e07eul/image/upload/v1659314257/Readme%20Headers/inter-lets-connect_bv3kcd.png)</a>
+
+<p><a href="https://twitter.com/"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=30 width=90 alt="Twitter badge"></a> <a href="https://www.linkedin.com/in/carlos-jaramillo-full-stack-developer/"><img src="https://img.shields.io/badge/linkedin-%230064e7.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=30 width=90 alt="Linkedin badge"></a> <a href="mailto:cjaramilloportilla@gmail.com"><img src="https://img.shields.io/badge/gmail-%23fd1745.svg?&style=for-the-badge&logo=gmail&logoColor=white" height=30 width=90 alt="Gmail badge"></a> <a href="https://github.com/Carlosaj18/"><img src="https://img.shields.io/badge/github-%23ff8e44.svg?&style=for-the-badge&logo=github&logoColor=white" height=30 width=90 alt="Github badge"></a></p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/Carlosaj18/Love-Language/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/Carlosaj18/Love-Language/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/Carlosaj18/Love-Language/issues
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/carlos-jaramillo-full-stack-developer/
+[product-screenshot]: https://user-images.githubusercontent.com/62365628/214893065-540e6b32-6113-4197-80e2-676009bbda30.jpg
+[product-screenshot2]: https://user-images.githubusercontent.com/62365628/214894451-99e22a57-56c7-4f65-9565-4a6ff60ae39a.jpeg
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
